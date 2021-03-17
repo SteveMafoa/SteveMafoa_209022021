@@ -1,0 +1,20 @@
+header.header img{
+    width:100px;    
+}
+
+h1,p
+    {
+    font-family: "Raleway", sans-serif;
+    
+}
+h1{
+    font-size: medium;
+}
+
+p{
+    font-size: 14px;
+}
+
+nav.nav img {
+   height: 25px;
+}
