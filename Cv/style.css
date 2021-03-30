@@ -1,0 +1,27 @@
+h1,h2,h3
+{
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: rgba(202, 103, 11, 0.767);    
+}
+img{
+    width: 200px;
+	height: 200px;
+    float: right;
+}
+body{
+    background-color: rgb(194, 217, 224);
+    font-family: "Raleway", sans-serif;   
+}
+ul{
+    border-bottom: 1px solid rgba(139, 123, 123, 0.63);
+}
+span{
+    color: cadetblue;
+}
+h4{
+    color: rgba(202, 103, 11, 0.767); 
+}
+div{
+    padding: 10px;
+}
