@@ -2,7 +2,8 @@ h1,h2,h3
 {
     font-family: "Raleway", sans-serif;
     text-align: center;
-    color: rgba(202, 103, 11, 0.767);    
+    color: rgba(202, 103, 11, 0.767);
+    margin-left: 18%;    
 }
 img{
     width: 200px;
@@ -15,13 +16,20 @@ body{
 }
 ul{
     border-bottom: 1px solid rgba(139, 123, 123, 0.63);
+    text-align: center;
+    list-style-position: inside;
+    
 }
 span{
     color: cadetblue;
 }
 h4{
     color: rgba(202, 103, 11, 0.767); 
+    text-align: center;
 }
 div{
     padding: 10px;
+}
+p{
+    text-align: center;
 }
