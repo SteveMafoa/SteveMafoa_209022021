@@ -11,20 +11,24 @@ img{
     float: right;
 }
 body{
-    background-color: rgb(194, 217, 224);
+    background-color: rgb(255, 255, 255);
     font-family: "Raleway", sans-serif;   
 }
 ul{
-    border-bottom: 1px solid rgba(139, 123, 123, 0.63);
     text-align: center;
     list-style-position: inside;
-    
+    color: cadetblue;
+    font-family: "Andale Mono", monospace ;
 }
 span{
     color: cadetblue;
+    margin: auto;
+    width: 30%;
+    border-bottom: 3px solid #000000;
+    padding: 10px;
 }
 h4{
-    color: rgba(202, 103, 11, 0.767); 
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 div{
@@ -32,4 +36,47 @@ div{
 }
 p{
     text-align: center;
+    color: rgb(4, 44, 90);
+    font-family: "Andale Mono", monospace
+
+}
+.center{
+    margin-right: 18%;
+    margin: auto;
+    width: 25%;
+    border-bottom: 3px solid #000000;
+    padding: 10px;
+    
+}
+.center1{
+    margin-right: 18%;
+    margin: auto;
+    width: 25%;
+    border-bottom: 3px solid #000000;
+    padding: 10px;
+}
+.contact{
+    text-align: left;
+}
+@media screen and (max-width: 1280px){
+    body{
+        background-color:violet;
+    }
+}
+.infos{
+    text-align: left;
+}
+.competences{
+    text-align: left;
+}
+.interets{
+    text-align: left;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
 }
