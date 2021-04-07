@@ -1,40 +1,55 @@
-#logo img
-{
-    width:100px;
-     
+.img-reservia{
+    max-width: 100px;
+    display: block;
+    margin: 3rem;
 }
-
-h1,p
-{
-    font-family: "Raleway", sans-serif;
+.nav-list {
+    list-style-type: none;
+    text-align: right;
     
 }
-h1
-{
-    font-size: medium;
+.nav-list li {
+    display: inline-block;
+    font-family: "Raleway" ,sans-serif;
+    position: relative;
+    bottom: 9rem;
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    
+}
+.nav-list li a:hover{
+    background-color: #007fff;
+}
+section{
+    margin: 3rem;
 }
 
-p
-{
+body {
+    font-family: "Raleway", sans-serif;
     font-size: 14px;
 }
- ul 
-{
-    list-style-type: none ;
-    display: flex;
-    
+.container-nav{
+    height: 30px;
 }
- li
-{
-    margin-right: 15px;
-    
-
+.icone {
+    border-radius: 1rem 0 0 1rem;
+    background: #f2f2f2;
 }
-header
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    font-family: "Raleway", sans-serif;
-    
+.search-bar {
+  max-width: 35rem;
+  display: flex;
+  margin: 3rem 0;
+  }
+::placeholder{
+    color: black;
+    font-weight: 600;
+}
+form input{
+    border: none;
+    height: 3rem;
 }
