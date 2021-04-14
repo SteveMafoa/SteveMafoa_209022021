@@ -23,7 +23,7 @@ li a{
     
 }
 .nav-list li a:hover{
-    background-color: #007fff;
+    background-color:#DEEBFF;
 }
 section{
     margin: 3rem;
@@ -36,10 +36,15 @@ body {
 .container-nav{
     height: 30px;
 }
-.icone {
+.icone-left {
     border-radius: 1rem 0 0 1rem;
     background: #f2f2f2;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .search-bar {
   max-width: 35rem;
   display: flex;
@@ -49,7 +54,128 @@ body {
     color: black;
     font-weight: 600;
 }
-form input{
+form input {
     border: none;
     height: 3rem;
+}
+
+
+form > a {
+    text-decoration: none;
+    color: white;
+    background-color: #0065FC;
+    font-weight: 600;
+    
+}
+
+.active-link1{
+    border-top: solid #0065FC;
+    
+
+}
+.register a{
+    font-weight: 800;
+    color: #0065FC;
+}
+.container-nav{
+    height: 1.6rem;
+}
+.filter-button i{
+    align-items: center;
+    justify-content: center;
+    color: #0065FC;
+    position: static;
+    padding: 10px;
+    display: flex;
+
+}
+.filter-container{
+    display: flex;
+    
+    
+    
+}
+
+.filter-title {
+    font-size: 1rem;
+    padding-right: 20px;
+    padding-top: 15px;
+
+}
+.filter-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 0 2rem 2rem 0;
+    border-color: #e0e0e0;
+    padding: 5px 5px;
+    height: 25px;
+    margin: 20px;
+    font-weight: 700;
+
+    
+}
+.filter-button i{
+    border-style: none;
+    border-radius: 2.6rem ;
+    background: #deebff;
+    color: #0065fc;
+    position: relative;
+    right: 1rem;
+    height: 1.6rem;
+    width: 1.6rem;
+   
+}
+.filter-button a{
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
+.filter-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.filter-text p{
+    position: relative;
+    left: 10px;
+}
+.filter-text i{
+    border-style: none;
+    width: 1rem;
+    height: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 2.6rem;
+    color: #0065fc;
+    border-width: 0.1rem;
+}
+.img1{
+    height:5rem;
+    width: 10rem;
+}
+
+
+
+
+
+
+
+
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f2f2f2;
+    max-width: 100%;
+}
+.footer2{
+    padding-right: 4rem;
+}
+.footer3{
+    padding-right: 4rem;
 }
