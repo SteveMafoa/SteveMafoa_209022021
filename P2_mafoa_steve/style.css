@@ -153,8 +153,19 @@ form > a {
     border-width: 0.1rem;
 }
 .img1{
-    height:5rem;
-    width: 10rem;
+    width: 20%;
+    height: 8rem;
+    object-fit: cover;
+    border-style: solid solid none solid;
+    border-width: 0.5rem;
+    border-color: white;
+    border-radius: 2.5rem 2.5rem 0 0;
+}
+.container1 h2{
+    font-size: 14px;
+}
+main{
+    margin: 2rem;
 }
 
 
