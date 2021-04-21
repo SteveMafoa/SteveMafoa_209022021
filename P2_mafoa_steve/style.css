@@ -56,16 +56,22 @@ body {
 }
 form input {
     border: none;
-    height: 3rem;
+    height: 2.5rem;
 }
 
 
-form > a {
+form > button {
     text-decoration: none;
     color: white;
     background-color: #0065FC;
     font-weight: 600;
     
+}
+.button-search{
+    height: 2.5rem;
+    border-style: none;
+    border-radius: 0 7px 7px 0;
+    width: 100px;
 }
 
 .active-link1{
@@ -80,19 +86,8 @@ form > a {
 .container-nav{
     height: 1.6rem;
 }
-.filter-button i{
-    align-items: center;
-    justify-content: center;
-    color: #0065FC;
-    position: static;
-    padding: 10px;
-    display: flex;
-
-}
 .filter-container{
     display: flex;
-    
-    
     
 }
 
@@ -110,9 +105,10 @@ form > a {
     border-radius: 0 2rem 2rem 0;
     border-color: #e0e0e0;
     padding: 5px 5px;
-    height: 25px;
+    height: 23px;
     margin: 20px;
     font-weight: 700;
+    white-space: nowrap;
 
     
 }
@@ -120,11 +116,15 @@ form > a {
     border-style: none;
     border-radius: 2.6rem ;
     background: #deebff;
-    color: #0065fc;
     position: relative;
     right: 1rem;
     height: 1.6rem;
     width: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    color: #0065FC;
    
 }
 .filter-button a{
@@ -148,45 +148,73 @@ form > a {
     justify-content: center;
     align-items: center;
     display: flex;
-    border-radius: 2.6rem;
+    border-radius: 2.rem;
     color: #0065fc;
     border-width: 0.1rem;
 }
-.img1{
-    width: 20%;
-    height: 8rem;
-    object-fit: cover;
-    border-style: solid solid none solid;
-    border-width: 0.5rem;
+figure{
+    display: inline-block;
+    height: 180px;
+    width: 220px;
+    
+    vertical-align: middle;
+    margin: 2px;
+    padding: 4px;
+    
+}
+figure img {
+    width: 220px;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
     border-color: white;
-    border-radius: 2.5rem 2.5rem 0 0;
+    border-radius: 1.8rem 1.8rem 0 0;
+    object-fit: cover;
+    border-width: 0.5rem;
 }
-.container1 h2{
-    font-size: 14px;
+figure figcaption {
+    font-family:  "Raleway", sans-serif;
 }
-main{
+.container-1{
+    background-color: #f2f2f2;
+    width: 720px;
     margin: 2rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    
 }
-
-
-
-
-
-
-
+.title-container-1{
+    margin: 1rem;
+}
+.star-grey{
+    color: #d3d3d3e7;
+}
+.star-blue{
+    color: #0065fc;
+}
+.margin-top-p{
+    padding-bottom: 30px;
+}
+.container-aside{
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 .container-footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 2rem;
     background-color: #f2f2f2;
-    max-width: 100%;
+    
 }
+
 .footer2{
     padding-right: 4rem;
 }
 .footer3{
     padding-right: 4rem;
+}
+.container-footer > h3{
+    font-weight: bold;
 }
