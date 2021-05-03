@@ -31,7 +31,6 @@ section{
 
 body {
     font-family: "Raleway", sans-serif;
-    font-size: 14px;
     padding: 0;
     margin: 0;
 
@@ -55,7 +54,7 @@ html{
 .search-bar {
   max-width: 35rem;
   display: flex;
-  margin: 3rem 0;
+  margin: 1rem 0;
   }
 ::placeholder{
     color: black;
@@ -162,7 +161,8 @@ form > button {
 figure{
     display: inline-block;
     height: 180px;
-    width: 220px;
+    width: 30%;
+
     
     vertical-align: middle;
     margin: 2px;
@@ -186,13 +186,16 @@ figure figcaption {
 .container-1{
     border-radius: 1rem 1rem 1rem 1rem;
     margin: 1rem;
+    display: flex;
     
 }
 .container-img-1{
-    width: 67%;
+    width: 65%;
     display: inline-block;
     background-color: #f2f2f2;
     border-radius: 1.8rem;
+    margin-right: 8px;
+    padding: 15px;
 }
 .title-container-1{
     margin: 1rem;
@@ -204,14 +207,14 @@ figure figcaption {
     color: #0065fc;
 }
 .margin-top-p{
-    padding-bottom: 30px;
+    margin: 35px;
 }
 
 .img-size-populaire{
-    width: 180px;
+    width: 100%;
     height: 130px;
-    margin: 10px;
-    padding: 0px;
+    margin: 5px;
+    padding: 9px;
     border-color: white;
     border-radius: 1.8rem 0 0 1.8rem;
     object-fit: cover;
@@ -226,21 +229,17 @@ figure figcaption {
     margin: 10px;
 }   
 aside {
-    display: flex;
-    flex-direction: column;
-    float: right;
-    width: 30%;
+    width: 31%;
     background-color: #f2f2f2;
     border-radius: 1.8rem;
+    margin-left: 50px;
+    padding: 10px;
     
 }
 .right-text{
     display: flex;
 }
-.right-text img{
-    border-style: solid;
-    color: white;
-}
+
 .img-vieux-port{
     width: 25%;
     
@@ -255,44 +254,63 @@ aside {
 .container-2{
     display: flex;
     margin: 1rem;
-    height: 380px;
     margin-top: 2.5rem;
 }
+.img-vieux-port strong{
+    white-space: nowrap;
+}
+.img-parc-national strong{
+    white-space: nowrap;
+}
 .img-fort-pomegues{
-    width: 28%;
+    width: 25%;
+    margin: 10px;
 
 }
+.img-notre-dame{
+    width: 25%;
+    margin: 10px;
+}
 .img-size-3{
-    height: 175px;
-    width: 305px;  
+    height: 160px;
+    width: 100%;  
     object-fit: cover;
+    margin-top: 10px;
 }
 .img-size-4{
-    width: 305px;
+    width: 100%;
     height: 100px;
     object-fit: cover;
-    padding-top: 1rem;
+    margin-top: 66px;
 }
 .container-2 img{
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
 }
 .img-parc-national{
-    width: 28%;
+    width: 25%;
 }
 .title-activites{
     margin: 1rem;
+    margin-top: 50px;
 }
 .container-3{
     display: flex;
-    margin-top: 9rem;
-    margin:1rem;
+    margin:10px;
     background-color: #f2f2f2;
-    margin-bottom: 2rem;
-    width: 100%;
 }
 .footer-1{
-    width: 30%;
+    width: 33%
 }
 .footer-2{
-    width: 40%;
+    width: 33%;
+}
+.footer-3{
+    width: 33%;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: blue;
 }
