@@ -1,5 +1,5 @@
 * {
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -162,7 +162,6 @@ form > button {
 }
 figure{
     display: inline-block;
-    height: 180px;
     width: 30%;
 
     
@@ -282,7 +281,7 @@ aside {
     width: 100%;
     height: 100px;
     object-fit: cover;
-    margin-top: 66px;
+    margin-top: 32px;
 }
 .container-2 img{
     border-radius: 15px 15px 0 0;
@@ -300,7 +299,7 @@ aside {
     background-color: #f2f2f2;
 }
 .footer-1{
-    width: 33%
+    width: 33%;
 }
 .footer-2{
     width: 33%;
