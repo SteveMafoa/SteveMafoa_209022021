@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.scss">
+    <title>combinateurs</title>
+</head>
+
+<!--Partie 1, Chapitre 6, Exercice 1-->
+
+<!--Nestez un sélecteur de la classe .adjacent en utilisant le combinateur voisin ( + ) 
+    et assignez-lui le background-color de votre choix.-->
+
+<!--Nestez un sélecteur de la classe .child en utilisant le combinateur enfant ( > ) 
+    et assignez-lui la background-color de votre choix.-->
+
+<!--Nestez le sélecteur de la classe .descendant en utilisant un combinateur descendant.
+    Normalement, le combinateur descendant est un espace " ", mais avec Sass, 
+    nester directement un sélecteur va compiler comme un espace du combinateur descendant dans le CSS.
+    Assignez la background-color de votre choix au sélecteur .descendant nesté.-->
+
+<!---->
+
+<body>
+  <div class="container">
+  <div class="general">Frère et soeurs</div>
+  <div class="root">Contenu root
+    <div class="child">Contenu enfant
+      <div class="descendant">Contenu descendant</div>
+    </div>
+  </div>
+  <div class="adjacent">Frères et soeurs adjacents</div>
+  <div class="descendant">Une autre classe descendante, mais pas un descendant de root.</div>
+</div>
+  
+</body>
